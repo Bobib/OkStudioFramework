@@ -1,0 +1,76 @@
+<?xml version="1.0"?>
+<lang type="en_US">
+
+	<!-- Jours -->
+	<word find="Monday" replace="Monday" />
+	<word find="Tuesday" replace="Tuesday" />
+	<word find="Wednesday" replace="Wednesday" />
+	<word find="Thursday" replace="Thursday" />
+	<word find="Friday" replace="Friday" />
+	<word find="Saturday" replace="Saturday" />
+	<word find="Sunday" replace="Sunday" />
+	
+	<!-- Mois -->
+	<word find="January" replace="January" />
+	<word find="February" replace="February" />
+	<word find="March" replace="March" />
+	<word find="April" replace="April" />
+	<word find="May" replace="May" />
+	<word find="June" replace="June" />
+	<word find="July" replace="July" />
+	<word find="August" replace="August" />
+	<word find="September" replace="September" />
+	<word find="October" replace="October" />
+	<word find="November" replace="November" />
+	<word find="December" replace="December" />
+	
+	<!-- Footer-->
+	<word find="Policies" replace="policies" />
+	<word find="Contact" replace="contact" />
+	<word find="Copyright" replace="copyright" />
+	
+	<!-- Menu utilisateur -->
+	<word find="Login" replace="Login" />
+	<word find="Logout" replace="Logout" />
+	<word find="Subscribe" replace="Subscribe" />
+	<word find="Account" replace="Account" />
+	
+	<!-- jquery.validity error messages -->
+	<word find="validityErrormsg01" replace="is required" />
+        <word find="validityErrormsg02" replace="is in an invalid format" />
+        <word find="validityErrormsg03" replace="must be a positive, whole number" />
+        <word find="validityErrormsg04" replace="must be formatted as a date" />
+        <word find="validityErrormsg05" replace="must be formatted as an email" />
+        <word find="validityErrormsg06" replace="must be formatted as a US Dollar amount" />
+        <word find="validityErrormsg07" replace="must be formatted as a URL" />
+        <word find="validityErrormsg08" replace="must be formatted as a number" />
+        <word find="validityErrormsg09" replace="must be formatted as a zipcode ##### or #####-####" />
+        <word find="validityErrormsg10" replace="must be formatted as a phone number ##########" />
+
+        <word find="validityErrormsg11" replace="must be formatted as a guid like {3F2504E0-4F89-11D3-9A0C-0305E82C3301}" />
+        <word find="validityErrormsg12" replace="must be formatted as a 24 hour time: 23:00" />
+        <word find="validityErrormsg13" replace="must be formatted as a 12 hour time: 12:00 AM/PM" />
+        <word find="validityErrormsg14" replace="must be less than" />
+        <word find="validityErrormsg15" replace="must be less than or equal to" />
+        <word find="validityErrormsg16" replace="must be greater than" />
+        <word find="validityErrormsg17" replace="must be greater than or equal to" />
+        <word find="validityErrormsg18" replace="must be between" />
+        <word find="validityErrormsg19" replace="cannot be longer than" />
+        <word find="validityErrormsg20" replace="cannot be shorter than" />
+
+        <word find="validityErrormsg21" replace="cannot contain HTML characters" />
+        <word find="validityErrormsg22" replace="contains disallowed characters" />
+        <word find="validityErrormsg23" replace="cannot have more than" />
+        <word find="validityErrormsg24" replace="cannot have less than" />
+        <word find="validityErrormsg25" replace="Values don't match" />
+        <word find="validityErrormsg26" replace="A value was repeated" />
+        <word find="validityErrormsg27" replace="Values don't add to" />
+        <word find="validityErrormsg28" replace="The sum of the values must be less than" />
+        <word find="validityErrormsg29" replace="The sum of the values must be greater than" />
+        <word find="validityErrormsg30" replace="The selected value is not valid" />
+        
+        <word find="validityErrormsg31" replace="The form didn't submit for the following reason(s):" />
+        <word find="validityErrormsg32" replace="characters" />
+	
+</lang>
+

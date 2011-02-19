@@ -1,0 +1,7 @@
+Options +FollowSymLinks
+RewriteEngine On
+
+RewriteRule (css/|swf/|xml/|js/|images/|uploads/)(.*)$ $1$2 [L]
+RewriteRule ^(.+)(\.html) $1 [QSA,NC]
+RewriteRule ^(.+)(_([^_-]+)-([^_-]+)) $1?$3=$4 [QSA,N,NC]
+RewriteRule ^(.*) index.php?displayPage=$1 [L,QSA]

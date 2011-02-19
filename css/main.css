@@ -1,0 +1,40 @@
+/*
+* GENERAL
+*/
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #ccc;
+}
+
+/*
+* HEADER
+*/
+
+#header {
+    background-color: #bbbbbb;
+    margin-top: 10px;
+}
+
+/*
+* CONTENT
+*/
+
+.container {
+    background-color: #7b7b7b;
+}
+
+/*
+* FOOTER
+*/
+#footer {
+    background-color: #bbbbbb;
+}
+
+/*
+* Erreurs
+*/
+
+.erreur {
+    height: 420px;
+}

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <user value="" />
+    <password value="" />
+    <host value="smtp.gmail.com" />
+    <port value="465" />
+    <auth value="true" />
+    <secure value="ssl" />
+</database>

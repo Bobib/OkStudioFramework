@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+    <roles>
+        <role name="guest" inherit="" />
+        <role name="member" inherit="guest" />
+        <role name="admin" inherit="member" />
+    </roles>
+
+    <pages>
+        <page model="home.php" authorized="guest" />
+        <page model="ajaxResult.php" authorized="guest" />
+        <page model="404.php" authorized="guest" />
+	<page model="503.php" authorized="guest" />
+        <page model="legal.php" authorized="guest" />
+        
+        <page model="admin/home.php" authorized="admin" />
+        <page model="admin/create.php" authorized="admin" />
+        <page model="admin/read.php" authorized="admin" />
+        <page model="admin/update.php" authorized="admin" />
+        <page model="admin/delete.php" authorized="admin" />
+        <page model="admin/ajax.php" authorized="admin" />
+    </pages>
+    
+</root>

@@ -1,0 +1,76 @@
+﻿<?xml version="1.0"?>
+<lang type="fr_FR">
+
+	<!-- Jours -->
+	<word find="Monday" replace="Lundi" />
+	<word find="Tuesday" replace="Mardi" />
+	<word find="Wednesday" replace="Mercredi" />
+	<word find="Thursday" replace="Jeudi" />
+	<word find="Friday" replace="Vendredi" />
+	<word find="Saturday" replace="Samedi" />
+	<word find="Sunday" replace="Dimanche" />
+	
+	<!-- Mois -->
+	<word find="January" replace="Janvier" />
+	<word find="February" replace="Fevrier" />
+	<word find="March" replace="Mars" />
+	<word find="April" replace="Avril" />
+	<word find="May" replace="Mai" />
+	<word find="June" replace="Juin" />
+	<word find="July" replace="Juillet" />
+	<word find="August" replace="Aout" />
+	<word find="September" replace="Septembre" />
+	<word find="October" replace="Octobre" />
+	<word find="November" replace="Novembre" />
+	<word find="December" replace="Decembre" />
+	
+	<!-- Footer-->
+	<word find="Policies" replace="mentions légales" />
+	<word find="Contact" replace="contact" />
+	<word find="Copyright" replace="copyright" />
+	
+	<!-- Menu utilisateur -->
+	<word find="Login" replace="Identifiez-vous" />
+	<word find="Logout" replace="Se déconnecter" />
+	<word find="Subscribe" replace="Inscrivez-vous" />
+	<word find="Account" replace="Mon compte" />
+	
+	<!-- jquery.validity error messages -->
+	<word find="validityErrormsg01" replace="est obligatoire" />
+        <word find="validityErrormsg02" replace="n'est pas au bon format" />
+        <word find="validityErrormsg03" replace="doit être un nombre entier positif" />
+        <word find="validityErrormsg04" replace="doit être au format date" />
+        <word find="validityErrormsg05" replace="doit être au format email" />
+        <word find="validityErrormsg06" replace="doit être au format monétaire" />
+        <word find="validityErrormsg07" replace="doit être au format URL" />
+        <word find="validityErrormsg08" replace="doit être un nombre" />
+        <word find="validityErrormsg09" replace="doit être au format ##### ou #####-####" />
+        <word find="validityErrormsg10" replace="doit être au format numéro de téléphone ##########" />
+
+        <word find="validityErrormsg11" replace="doit être au format guid ex : {3F2504E0-4F89-11D3-9A0C-0305E82C3301}" />
+        <word find="validityErrormsg12" replace="doit être au format 24 heures : 23:00" />
+        <word find="validityErrormsg13" replace="doit être au format 12 heures : 12:00 AM/PM" />
+        <word find="validityErrormsg14" replace="doit être plus petit que" />
+        <word find="validityErrormsg15" replace="doit être plus petit ou égal à" />
+        <word find="validityErrormsg16" replace="doit être plus grand que" />
+        <word find="validityErrormsg17" replace="doit être plus grand ou égal à" />
+        <word find="validityErrormsg18" replace="doit être compris entre" />
+        <word find="validityErrormsg19" replace="ne doit pas être plus long que" />
+        <word find="validityErrormsg20" replace="ne doit pas être plus court que" />
+
+        <word find="validityErrormsg21" replace="ne doit pas contenir de caractères html" />
+        <word find="validityErrormsg22" replace="contient des caractères interdits" />
+        <word find="validityErrormsg23" replace="ne doit pas être plus long que" />
+        <word find="validityErrormsg24" replace="ne doit pas être plus court que" />
+        <word find="validityErrormsg25" replace="La valeur ne correspond pas" />
+        <word find="validityErrormsg26" replace="La valeur est déjà présente" />
+        <word find="validityErrormsg27" replace="La valeur ne s'ajoute pas à" />
+        <word find="validityErrormsg28" replace="La somme des valeurs doit être inférieur à" />
+        <word find="validityErrormsg29" replace="La somme des valeurs doit être supérieur à" />
+        <word find="validityErrormsg30" replace="La valeur sélectionnée n'est pas valide" />
+
+        <word find="validityErrormsg31" replace="Le formulaire n'a pas été envoyé pour la/les raison(s) suivante(s):" />
+        <word find="validityErrormsg32" replace="caractères" />
+        
+</lang>
+

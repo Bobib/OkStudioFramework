@@ -1,0 +1,210 @@
+/*
+* GENERAL
+*/
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #e0e0e0;
+}
+
+/*
+* HEADER
+*/
+
+#header {
+    margin-top: 10px;
+}
+
+/*
+* CONTENT
+*/
+
+#loginText {
+    background: #ffffff url(../images/admin/sprite.png) 0px 0px no-repeat;
+    margin-left: 30px;
+    padding-left: 30px;
+}
+
+#passwordText {
+    background: #ffffff url(../images/admin/sprite.png) 0px -22px no-repeat;
+    margin-left: 30px;
+    padding-left: 30px;
+}
+
+#adminContent {
+    background-color: #ffffff;
+    color: #000000;
+    padding: 10px 10px 10px 10px;
+}
+
+.tableLink {
+    color: #B39A6A;
+}
+
+#addButton {
+    height : 13px;
+    width: 168px;
+    display: block;
+    color: #000000;
+    padding: 15px 30px 10px 20px;
+    font-size: 16px;
+}
+
+#addButton span {
+    background:  url(../images/admin/sprite.png) 0px -104px no-repeat;
+    padding-left: 25px;
+    color: #777777;
+}
+
+#addButton:hover span {
+    background:  url(../images/admin/sprite.png) 0px -84px no-repeat;
+    color: #000000;
+}
+
+#adminMenu {
+    background-color: #e0e0e0;
+}
+
+h1 {
+    font-size: 20px;
+    background: #e0e0e0 url(../images/admin/logo.jpg) 0 0 no-repeat;
+    display: block;
+    height: 115px;
+    width: 165px;
+    font-weight: bold;
+}
+
+.adminMenuBtn, .adminMenuBtnActif {
+    height : 13px;
+    width: 231px;
+    display: block;
+    color: #000000;
+    text-align: right;
+    font-size: 14px;
+    padding: 15px 8px 15px 0px;
+    float: left;
+    border-top: #ccc solid 1px;
+    border-right: #ccc solid 1px;
+}
+
+.adminMenuBtn {
+    background: #e0e0e0 ;
+}
+
+.adminMenuBtnActif {
+    background-color: #ffffff;
+    font-weight: bold;
+    font-style: italic;
+}
+
+.adminMenuBtnActif span {
+    background:  url(../images/admin/sprite.png) 0px -44px no-repeat;
+    padding-left: 30px;
+}
+
+.adminMenuBtn:hover span {
+    background:  url(../images/admin/sprite.png) 0px -64px no-repeat;
+    padding-left: 30px;
+}
+
+.adminMenuBtn:hover {
+    background-color: #e6e6e6;
+    font-weight: bold;
+    font-style: italic;
+}
+
+#adminMenu {
+    
+}
+
+#adminContent {
+   border-top: #ccc solid 1px;
+}
+
+caption {
+    font-size: 20px;
+    margin: 5px 0 5px 10px;
+    font-weight: bold;
+}
+
+table {
+    width: 100%;
+}
+
+.adminTable th {
+    background-color: #cccccc;
+    font-weight: bold;
+    font-style: italic;
+    padding: 0px 10px 0px 10px;
+}
+
+.adminTable tr:hover {
+     background-color: #dddddd;
+}
+
+.adminTable tr:hover .tableLink {
+    
+}
+
+.adminTable td {
+    text-align: center;
+}
+
+input {
+    margin: 6px;
+}
+
+.addLink, .removeLink, .sortUP, .sortDOWN  {
+    cursor: pointer;
+}
+
+.actionUpdate, .actionDelete, .removeLink, .addLink, .sortUP, .sortDOWN, .spacer {
+    width: 16px;
+    height: 16px;
+    display: block;
+    float: left;
+    padding: 0px 5px 0px 5px;
+}
+
+.actionUpdate {  background:  url(../images/admin/sprite.png) 0px -64px no-repeat;}
+.actionUpdate:hover {  background:  url(../images/admin/sprite.png) 0px -44px no-repeat;}
+
+.actionDelete, .removeLink {  background:  url(../images/admin/sprite.png) 0px -146px no-repeat;}
+.actionDelete:hover, .removeLink:hover {  background:  url(../images/admin/sprite.png) 0px -126px no-repeat;}
+
+.addLink {  background:  url(../images/admin/sprite.png) 0px -104px no-repeat;}
+.addLink:hover {  background:  url(../images/admin/sprite.png) 0px -84px no-repeat;}
+
+.sortUP{  background:  url(../images/admin/sprite.png) 0px -186px no-repeat;}
+.sortUP:hover {  background:  url(../images/admin/sprite.png) 0px -166px no-repeat;}
+
+.sortDOWN {  background:  url(../images/admin/sprite.png) 0px -224px no-repeat;}
+.sortDOWN:hover {  background:  url(../images/admin/sprite.png) 0px -204px no-repeat;}
+
+.sortIdentifier {
+    visibility: hidden;
+}
+
+/*
+* FOOTER
+*/
+#footer {
+}
+
+/*
+* Erreurs
+*/
+
+.error, .alert, .notice, .success, .info {padding:0.8em;margin-bottom:1em;border:2px solid #ddd;text-align:center;}
+.error, .alert {background:#fbe3e4;color:#8a1f11;border-color:#fbc2c4;}
+.notice {background:#fff6bf;color:#514721;border-color:#ffd324;}
+.success {background:#e6efc2;color:#264409;border-color:#c6d880;}
+.info {background:#d5edf8;color:#205791;border-color:#92cae4;}
+.error a, .alert a {color:#8a1f11;}
+.notice a {color:#514721;}
+.success a {color:#264409;}
+.info a {color:#205791;}
+
+.erreur {
+    height: 420px;
+}

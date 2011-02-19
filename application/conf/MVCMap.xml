@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<pages>
+    <!-- Accueil et 404 indispensables -->
+    <page AccessString="home" Model="home.php" View="main.tpl" />
+    <page AccessString="404" Model="404.php" View="main.tpl" />
+    <page AccessString="503" Model="503.php" View="main.tpl" />
+
+    <!-- Debut de la liste des pages non indispensables -->
+    <page AccessString="legal" Model="legal.php" View="main.tpl" />
+    <page AccessString="result" Model="ajaxResult.php" View="ajax.tpl" />
+    
+    <!-- Administration -->
+    <page AccessString="adminhome" Model="admin/home.php" View="admin/main.tpl" />
+    <page AccessString="admincreate" Model="admin/create.php" View="admin/main.tpl" />
+    <page AccessString="adminread" Model="admin/read.php" View="admin/main.tpl" />
+    <page AccessString="adminupdate" Model="admin/update.php" View="admin/main.tpl" />
+    <page AccessString="admindelete" Model="admin/delete.php" View="admin/main.tpl" />
+    <page AccessString="adminajax" Model="admin/ajax.php" View="admin/ajax.tpl" />
+</pages>
