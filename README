@@ -1,0 +1,11 @@
+The OkStudio Framework include :
+
+- Security restrictions by Access Control List.
+- Url rewriting (SEO friendly).
+- Translation module.
+- MVC.
+- Cache system.
+- Auto-generated Administration pages, mapped on the database.
+- Simple SQL queries class.
+- easy configuration based on xml.
+- Include pre-existing tools, Jquery javascript framework, 960gs css framework, phpMailer...
