@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <database>
     <login value="root" />
-    <password value="plopplop" />
+    <password value="" />
     <host value="localhost" />
     <name value="test_database" />
 </database>
